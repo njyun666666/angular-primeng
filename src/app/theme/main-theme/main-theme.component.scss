@@ -1,0 +1,37 @@
+.main-wrapper {
+  display: flex;
+  min-height: 100vh;
+  padding-left: 300px;
+  //   background-color: var(--surface-b);
+  color: var(--text-color);
+
+  .main-sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100vh;
+    background-color: var(--surface-a);
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .main-topbar {
+      height: 5rem;
+      padding: var(--content-padding);
+      background-color: var(--surface-100);
+    }
+
+    .main-content {
+      flex-grow: 1;
+      width: 100%;
+      padding: var(--content-padding);
+      background-color: var(--surface-100);
+    }
+  }
+}
