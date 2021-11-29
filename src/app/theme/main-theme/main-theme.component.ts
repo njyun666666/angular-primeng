@@ -25,7 +25,7 @@ export class MainThemeComponent implements OnInit {
           label: 'New',
           icon: 'pi pi-fw pi-plus',
           items: [
-            { label: 'User', icon: 'pi pi-fw pi-user-plus' },
+            { label: 'User', icon: 'pi pi-fw pi-user-plus', url: '/page' },
             { label: 'Filter', icon: 'pi pi-fw pi-filter' }
           ]
         },
