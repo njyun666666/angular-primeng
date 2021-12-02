@@ -22,7 +22,7 @@
     width: 100%;
 
     .main-topbar {
-      height: 5rem;
+      min-height: 5rem;
       padding: var(--content-padding);
       background-color: var(--surface-100);
     }
